@@ -1,1 +1,113 @@
 /* Write your CSS here */
+
+.team-matches-bg {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.custom-RCB {
+  background-image: linear-gradient(to bottom, #a4261d, black);
+}
+.custom-KKR {
+  background-image: linear-gradient(to bottom, #13418b, black);
+}
+.custom-KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, black);
+}
+.custom-CSK {
+  background-image: linear-gradient(to bottom, #da237b, black);
+}
+.custom-RR {
+  background-image: linear-gradient(to bottom, #5755a7, black);
+}
+.custom-MI {
+  background-image: linear-gradient(to bottom, #f7db00, black);
+}
+.custom-SH {
+  background-image: linear-gradient(to bottom, #f26d22, black);
+}
+.custom-DC {
+  background-image: linear-gradient(to bottom, #4f5db0, black);
+}
+
+.banner-image {
+  width: 100%;
+  border-radius: 15px;
+}
+.latest-match {
+  width: 100%;
+  font-family: 'bree serif';
+}
+.latest-match-title {
+  color: white;
+  font-size: 20px;
+}
+.latest-match-body {
+  padding: 15px;
+  background-color: #1e293b;
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-match-left-section {
+  width: 30%;
+}
+.latest-match-center-section {
+  width: 35%;
+  text-align: center;
+}
+.latest-match-right-section {
+  width: 30%;
+  text-align: right;
+}
+.competing-team-logo {
+  width: 70%;
+}
+.left-section-title {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.right-section-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.right-section-desc {
+  margin-top: 0;
+}
+.recent-matches {
+  margin-top: 25px;
+}
+.recent-list {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recent-match-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 15px;
+  background-color: #1e293b;
+  border-radius: 15px;
+  padding: 15px;
+  width: 40%;
+  font-family: 'bree serif';
+}
+.competing-team-logo {
+  width: 50%;
+  height: 50%;
+}
+.red {
+  color: #e31a1a;
+}
+.green {
+  color: #18ed66;
+}
