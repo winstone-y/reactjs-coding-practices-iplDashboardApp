@@ -143,6 +143,7 @@ class TeamMatches extends Component {
         {teamMatchesApiStatus ? (
           this.displayTeamMatches()
         ) : (
+          // eslint-disable-next-line react/no-unknown-property
           <div className="team-list" testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />{' '}
           </div>
