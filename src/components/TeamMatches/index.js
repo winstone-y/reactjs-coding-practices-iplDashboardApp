@@ -13,15 +13,13 @@ class TeamMatches extends Component {
   getTeamMatches = async () => {
     const {match} = this.props
     const {params} = match
-    const teamMatchesApiUrl = `https://apis.ccbp.in/ipl/${params.id}`
+    const {id} = params
+    const teamMatchesApiUrl = `https://apis.ccbp.in/ipl/${id}`
     const teamMatchesResponse = await fetch(teamMatchesApiUrl)
     const teamMatchesData = await teamMatchesResponse.json()
     // console.log(teamMatchesData)
-    if (teamMatchesResponse.ok) {
-      this.setState({teamMatchesApiStatus: true, teamData: teamMatchesData})
-    } else {
-      this.setState({teamMatchesApiStatus: false})
-    }
+
+    this.setState({teamMatchesApiStatus: true, teamData: teamMatchesData})
   }
 
   displayTeamMatches = () => {
